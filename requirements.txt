@@ -1,0 +1,28 @@
+# ── Bot Exnova AI — Python Requirements ──────────────────────
+# Install with:  pip install -r requirements.txt
+
+# ── .env loading ──────────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Trading / Data ────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.26.0
+
+# ── HTTP (used by Telegram notifier fallback) ─────────────────
+# urllib is stdlib — no extra package needed for basic sending.
+# Optional: install requests for a more robust HTTP client.
+# requests>=2.31.0
+
+# ── Web / Dashboard ───────────────────────────────────────────
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# ── Config parsing ────────────────────────────────────────────
+pyyaml>=6.0.0
+
+# ── Optional: Economic data ───────────────────────────────────
+# yfinance>=0.2.0   # may have issues on Python 3.14+
+
+# ── Dev / Testing ─────────────────────────────────────────────
+# pytest>=8.0
+# pytest-asyncio>=0.23
